@@ -38,7 +38,7 @@ pip install --upgrade requests urllib3
 2. Run the script and provide a domain and your VirusTotal API key when prompted:
 
 ```bash
-python virustotal_url_fetcher.py
+python main.py
 ```
 
 3. Enter a domain (e.g., `example.com`) and your API key.
@@ -51,7 +51,7 @@ python virustotal_url_fetcher.py
 ### 📋 **Example**
 
 ```bash
-$ python virustotal_url_fetcher.py
+$ python main.py
 Enter the domain to scan (e.g., example.com): example.com
 Enter your VirusTotal API key: your_api_key_here
 URLs found for example.com:
